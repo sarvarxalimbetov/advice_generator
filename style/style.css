@@ -1,0 +1,183 @@
+@import url(https://fonts.googleapis.com/css2?family=Manrope:wght@100;200;300;400;500;600;800&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+.advice_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #202632;
+    margin: 0 auto;
+}
+
+.advice_wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    min-height: 350px;
+    background-color: #313A49;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px 10px #1F2531;
+    padding: 40px;
+}
+
+.advice_title{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #53FFAB;
+}
+
+.advice_textbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+}
+
+.advice_text{
+    text-align: center;
+    font-size: 26px;
+    color: #CEE3E8;
+}
+
+.advice_divider{
+    position: absolute;
+    top: 270px;
+}
+
+.advice_button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 320px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 50%;
+    background-color: #53FFAB;
+    transition: all .3s;
+    cursor: pointer;
+}
+
+.advice_button:hover{
+    box-shadow: 1px 1px 20px 5px #00ff84;
+}
+
+@media screen and (max-width: 426px){
+    .advice_wrapper{
+        width: 380px;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .advice_title{
+        font-size: 14px;
+    }
+
+    .advice_textbox{
+        width: 280px;
+        height: 140px;
+    }
+
+    .advice_text{
+        font-size: 20px;
+    }
+
+    .advice_divider{
+        width: 260px;
+        top: 195px;
+    }
+
+    .advice_button{
+        width: 50px;
+        height: 50px;
+        top: 230px;
+    }
+
+    .advice_button img{
+        width: 20px;
+    }
+}
+
+@media screen and (max-width: 376px){
+    .advice_wrapper{
+        width: 340px;
+        min-height: 250px;
+        padding: 20px;
+    }
+
+    .advice_title{
+        font-size: 14px;
+    }
+
+    .advice_textbox{
+        width: 280px;
+        height: 140px;
+    }
+
+    .advice_text{
+        font-size: 18px;
+    }
+
+    .advice_divider{
+        width: 260px;
+        top: 195px;
+    }
+
+    .advice_button{
+        width: 40px;
+        height: 40px;
+        top: 230px;
+    }
+
+    .advice_button img{
+        width: 18px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .advice_wrapper{
+        width: 300px;
+        min-height: 220px;
+        padding: 20px;
+    }
+
+    .advice_title{
+        font-size: 12px;
+    }
+
+    .advice_textbox{
+        width: 280px;
+        height: 140px;
+    }
+
+    .advice_text{
+        font-size: 16px;
+    }
+
+    .advice_divider{
+        width: 260px;
+        top: 170px;
+    }
+
+    .advice_button{
+        width: 40px;
+        height: 40px;
+        top: 200px;
+    }
+
+    .advice_button img{
+        width: 18px;
+    }
+}
